@@ -9,15 +9,17 @@ const Carousel = () => {
     padding: 0,
     textAlign: "center",
     margin: "auto",
-    width: "100%",
+    width: "100%", // Adjust this width as needed
     height: "400px",
     padding: "10px",
+    maxWidth: "300px", // Maximum width of each card
   };
 
   const containerStyle = {
+   
     margin: "auto",
     marginTop: "40px",
-    // Other styles...
+    width: "95%", // Adjust this width as needed
   };
 
   var settings = {
