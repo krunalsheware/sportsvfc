@@ -22,10 +22,10 @@ const International = () => {
 
   return (
     <div>
-      <h1 className="text-center px-8 py-6">Our Achivments</h1>
+      <h1 className="text-center px-8 py-6 mt-14">Our Achivments</h1>
       <div style={inter} className="text-center px-8 py-6 container">
      
-        <h1 className="text-center px-8 py-6 card">International Achivments</h1>
+      <h1 className="text-3xl font-bold mb-4">International Players</h1>
         <p>
           "We have total 4 fencers who are alreday represent INDIA in
           International competition 2 of them have achive a great success in

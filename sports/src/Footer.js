@@ -34,18 +34,18 @@ const Footer = () => {
         </div>
 
         {/* Second Column: Social Links */}
-        <div className="col-md-4">
+        <div className="col-md-4 ">
           <h4>Our Social Links</h4>
-          <ul className="list-unstyled">
-            <li className="mb-2">
-            <FaInstagram />
+          <ul className="list-unstyled border-red-50">
+            <li className="m-2 flex ">
+            <FaInstagram  className="me-2"/>
               <a  href="https://instagram.com/victorious_fencers_nag?utm_source=qr&igshid=MThlNWY1MzQwNA==" className="text-white">Instagram</a>
             </li>
-            <li className="mb-2">
+            <li className="mb-2 flex">
               <FaFacebook className="me-2" />
               <a href="#" className="text-white">Facebook</a>
             </li>
-            <li>
+            <li  className="flex">
               <FaYoutube className="me-2" />
               <a href="#" className="text-white">Youtube</a>
             </li>
@@ -53,14 +53,14 @@ const Footer = () => {
         </div>
 
         {/* Third Column: Contact Details */}
-        <div className="col-md-4">
+        <div className="col-md-4 ">
           <h4>Reach Us</h4>
-          <ul className="list-unstyled">
-            <li className="mb-2">
+          <ul className="list-unstyled ">
+            <li className="flex mb-4">
               <HiOutlineMail className="me-2" />
               <a href="#" className="text-white">vfc@gmail.com</a>
             </li>
-            <li>
+            <li className="flex ">
               <HiPhone className="me-2" />
               <a href="tel:9021129442" className="text-white">+91-9021129442</a>
             </li>

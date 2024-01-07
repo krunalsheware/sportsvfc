@@ -49,7 +49,9 @@ const Coach = () => {
         Our <span>Coach</span>
       </h1>
 
-      <div style={box1}>
+      {/* <div  className="grid grid-cols-2"> */}
+      <div style={box1} className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-12 mx-auto w-95 md:w-90 lg:w-80 mt-10 md:mt-16 lg:mt-20">
+
         <div style={img}
         >
            <style>
@@ -71,11 +73,12 @@ const Coach = () => {
       </style>
           <img src="./coach.jpg" alt="coachimg" />
         </div>
-        <div className="contaier2">
+        <div className=" contaier2 text-base md:text-sm lg:text-md"
+>
           <h2>
             About <span>Coach</span>
           </h2>
-          <p style={coachdes}>
+          <p style={coachdes} >
             Ankit Gajbhiye, a former accomplished fencer, now leads our
             Victories Fencing Club as the head coach. With a fencing journey
             that commenced in 2006, he has participated in sevral national
