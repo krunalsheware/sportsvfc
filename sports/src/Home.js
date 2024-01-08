@@ -19,7 +19,7 @@ function Home() {
       <Carousel />
       <hr />
 
-      <Awards />
+      {/* <Awards /> */}
 
       <hr />
       <Footer />
