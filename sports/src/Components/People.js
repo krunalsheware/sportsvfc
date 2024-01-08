@@ -99,7 +99,35 @@ const Example = () => {
 
   return (
     <div>
-     c
+      <div>
+        <h1 className="text-3xl font-bold mt-20 mb-8 py-8 text-center">
+          "InternationalNational Competitors & Laureates"
+        </h1>
+      </div>
+      <div>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-12 mx-auto">
+          {people2.map((person) => (
+            <li key={person.name}>
+              <div className="flex items-center justify-center">
+                <div>
+                  <img
+                    className=" border-2 border-red-500 border-solid w-80 h-80 max-w-xs sm:max-w-none sm:w-full md:max-w-none md:w-full lg:max-w-none lg:w-full rounded-full m-auto"
+                    src={person.imageUrl}
+                    alt=""
+                    
+                  />
+                  <h3 className="text-base font-semibold text-center m-auto  leading-7 tracking-tight text-gray-900">
+                    {person.name}
+                  </h3>
+                  <p className="text-sm font-semibold text-center leading-6 text-indigo-600">
+                    {person.role}
+                  </p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
       <div>
         <div>
           <h1 className="text-3xl font-bold mt-20 mb-8 py-8 text-center">
@@ -117,8 +145,8 @@ const Example = () => {
                     alt=""
                     style={{
                       border: '3px solid transparent', // Set a transparent solid border to reserve space for the border-image
-                      borderImage: 'linear-gradient(to right, red, yellow, green) 1',
-                      borderRadius: '100%', // Makes the image circular
+                      borderImage: 'linear-gradient(to right, red, yellow, green) 2',
+                      borderRadius: '50%', // Makes the image circular
                       objectFit: 'cover', // Ensures the image covers the entire container without stretching
                     }}
                   />
