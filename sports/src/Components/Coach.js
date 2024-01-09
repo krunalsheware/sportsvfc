@@ -66,7 +66,7 @@ const Coach = () => {
             competitions, securing numerous well-deserved medals. He holds an
             NIS(National Institute Of Sports) Diploma in fencing from NS-NIS
             Patiala (2022-2023) and a certificate from NS-NIS Aurangabad
-            (20-20). Ankit's prowess as a player is evident in his multiple
+            (2016). Ankit's prowess as a player is evident in his multiple
             medal victories. With over 8 years of coaching experience, he has
             groomed numerous fencers from Nagpur to excel at both national and
             international levels. His unique insight, derived from his player

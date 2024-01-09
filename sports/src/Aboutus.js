@@ -17,7 +17,13 @@ const Aboutus = () => {
     <div>
       <Nav />
       <Whatsapp />
+      <div>
+        <h1 className="text-3xl text-white bg-gray-500 border rounded font-bold mt-20 mb-8 py-8 text-center">
+          "AboutUs"
+        </h1>
+        </div>
       <div className="mt-28 text-center container">
+    
         {" "}
         <h3 className="border-b-2">Welcome to Victorious Fencing Club</h3>
         <p>At Victorious Fencing Club, we're more than just a place to learn and practice

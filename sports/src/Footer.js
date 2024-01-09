@@ -13,7 +13,7 @@ const Footer = () => {
     // Add other styles as needed
   };
   return (
-    <footer className="bg-gray-500 text-white py-4">
+    <footer className="bg-gray-800 text-white py-4">
       <div className="container">
         <div className="row">
           {/* First Column: Address and Timing */}

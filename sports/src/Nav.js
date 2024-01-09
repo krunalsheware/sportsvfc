@@ -1,13 +1,14 @@
 import { Fragment, useEffect, useState } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import {useLocation} from 'react-router-dom'
 
 
 const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'AboutUs', href: '/aboutus', current: false },
+  { name: 'Home', href: '/', current: false },
   { name: 'Achivments', href: '/achivments', current: false },
   { name: 'ContactUS', href: '/contactus', current: false },
+  { name: 'AboutUs', href: '/aboutus', current: false },
 ]
 
 function classNames(...classes) {
@@ -15,6 +16,7 @@ function classNames(...classes) {
 }
 
 export default function Nav() {
+  const location = useLocation();
 
   const[isScrolled,setIsScrolled]=useState(false)
   useEffect(()=>{
@@ -34,7 +36,7 @@ export default function Nav() {
   },[]);
   return (
     
-    <Disclosure as="nav" className="bg-gray-500   " >
+    <Disclosure as="nav" className={`bg-gray-800 ${isScrolled ? 'bg-opacity-100' : 'bg-opacity-100'} fixed top-0 w-full transition duration-300 ease-in-out z-50`}>
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -62,17 +64,28 @@ export default function Nav() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
+                      // <a
+                      //   key={item.name}
+                      //   href={item.href}
+                      //   className={classNames(
+                      //     item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                      //     'rounded-md px-3 py-2 text-sm font-medium'
+                      //   )}
+                      //   aria-current={item.current ? 'page' : undefined}
+                      // >
                       <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
+                      key={item.name}
+                      href={item.href}
+                      className={classNames(
+                        // Use the text-decoration-none class to remove underline
+                        'text-decoration-none', // Add this class
+                        item.href === location.pathname ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        'rounded-md px-3 py-2 text-sm font-medium'
+                      )}
+                      aria-current={item.current ? 'page' : undefined}
+                    >
+                      {item.name}
+                    </a>
                     ))}
                   </div>
                 </div>
@@ -90,7 +103,7 @@ export default function Nav() {
                   key={item.name}
                   as="a"
                   href={item.href}
-                  className={classNames(
+                  className={classNames( 'text-decoration-none',
                     item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}

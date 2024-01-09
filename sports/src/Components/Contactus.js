@@ -8,7 +8,13 @@ const ContactUs = () => {
   return (
     <div>
       <Nav />
+      <div>
+        <h1 className="text-3xl text-white bg-gray-500 border rounded font-bold mt-20 mb-8 py-8 text-center">
+          "ContactUs"
+        </h1>
+        </div>
       <div class="container  grid grid-cols-1  md:grid-cols-2 gap-8 md:gap-0 md:p-8 my-6 md:my-20  ">
+       
         <div className="text-center">
           <h3 className="text-xl md:text-2xl font-semibold mb-4">
             Fill this form we will contact you:

@@ -28,7 +28,7 @@ const Carousel = () => {
     // dots: true,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
@@ -36,7 +36,8 @@ const Carousel = () => {
         {
           breakpoint: 768, // Medium screen
           settings: {
-            slidesToShow: 1, // Show 3 images for medium screens
+            slidesToShow: 2, // Show 3 images for medium screens
+            
           },
         },
         {
