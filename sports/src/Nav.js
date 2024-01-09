@@ -56,9 +56,17 @@ export default function Nav() {
               <div className="flex flex-1 items-center justify-center sm:items sm:justify-start">
               <div className="flex-shrink-0 items-center">
                   {/* Responsive Logo */}
+                   {/* Responsive Logo */}
+                   <div className="flex justify-center sm:hidden">
+                    <img
+                      className="h-8 w-auto"
+                      src="./fencerimg/logo.png" // Replace this with your logo path
+                      alt="Your Logo"
+                    />
+                  </div>
                   <div className="hidden sm:flex sm:items-center">
                     <img
-                      className="h-8 w-auto bg-white"
+                      className="h-8 w-auto"
                       src="./fencerimg/logo.png" // Replace this with your logo path
                       alt="Your Logo"
                     />
@@ -66,6 +74,7 @@ export default function Nav() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
+                    
                     {navigation.map((item) => (
                       // <a
                       //   key={item.name}
