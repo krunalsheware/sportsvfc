@@ -4,47 +4,47 @@ const Example = () => {
   const people = [
     {
       name: "Damini Rambhad",
-      role: "Co-Founder / CEO",
+      role: "20 National participation",
       imageUrl: "./fencerimg/Daminidi1.png",
     },
     {
       name: "Krunal Sheware",
-      role: "Co-Founder / CEO",
+      role: "National medalist",
       imageUrl: "./fencerimg/krunal1.png",
     },
     {
       name: "Pranay Pimpalkar",
-      role: "Co-Founder / CEO",
+      role: "National medalist",
       imageUrl: "./fencerimg/pranay1.png",
     },
     {
       name: "Aavesh Somkuwar",
-      role: "Co-Founder / CEO",
+      role: "National medalist",
       imageUrl: "./fencerimg/aveshimg.png",
     },
     {
       name: "Yash Sontakke",
-      role: "Co-Founder / CEO",
+      role:"National Participate",
       imageUrl: "./fencerimg/yashimg.png",
     },
     {
       name: "Khushi Thatere",
-      role: "Co-Founder / CEO",
+      role: "National medalist",
       imageUrl: "./fencerimg/khushi1.png",
     },
     {
       name: "Lumbini Meshram",
-      role: "Co-Founder / CEO",
+      role: "National medalist",
       imageUrl: "./fencerimg/lumbini1.png",
     },
     {
       name: "Shruti Joshi",
-      role: "Co-Founder / CEO",
+      role: "National medalist",
       imageUrl: "./fencerimg/shruti1.png",
     },
     {
       name: "Sparsh Binkar",
-      role: "Co-Founder / CEO",
+      role: "National medalist",
       imageUrl: "./fencerimg/sparshimg1.png",
     },
     // {
@@ -55,7 +55,7 @@ const Example = () => {
     // },
     {
       name: "Sayli Ukey",
-      role: "Co-Founder / CEO",
+      role: "National medalist",
       imageUrl: "./fencerimg/sayli1.png",
     },
     // {
@@ -66,7 +66,7 @@ const Example = () => {
     // },
     {
       name: 'Eesha Yuvvari',
-      role: 'Co-Founder / CEO',
+      role: "National medalist",
       imageUrl: "./fencerimg/eesha1.png"  
       },
     // More people...
@@ -74,23 +74,23 @@ const Example = () => {
   const people2 = [
     {
       name: "Damini Rambhad",
-      role: "Co-Founder / CEO",
+      role: "Bronze Medlist-South Asian Fencing Championship Hydrabad INDIA  &  Participation in Foil Grand Prix-CHINA" ,
       imageUrl: "./fencerimg/Daminidi.jpeg",
     },
 
     {
       name: "Khushi Thatere",
-      role: "Co-Founder / CEO",
+      role: "2nd TFF MINI THAILAND OPEN FENCING CHAMPIONSHIP-BRONZE MEDALIST",
       imageUrl: "./fencerimg/khushi.jpg",
     },
     {
       name: "Lumbini Meshram",
-      role: "Co-Founder / CEO",
+      role: "Participated in 2nd TFF MINI THAILAND OPEN FENCING CHAMPIONSHIP",
       imageUrl: "./fencerimg/lumbini.jpeg",
     },
     {
       name: "Shruti Joshi",
-      role: "Co-Founder / CEO",
+      role: "Cadet Fencing Championship-Jorden & Cadet&Junior asian Fencing Championship-Tashkent Uzbekistan.",
       imageUrl: "./fencerimg/shruti.jpeg",
     },
 
@@ -111,7 +111,7 @@ const Example = () => {
               <div className="flex items-center justify-center">
                 <div>
                   <img
-                    className=" border-2 border-red-500 border-solid w-80 h-80 max-w-xs sm:max-w-none sm:w-full md:max-w-none md:w-full lg:max-w-none lg:w-full rounded-full m-auto"
+                    className=" border-2 border-red-500 border-solid w-100 h-100 max-w-xs sm:max-w-none sm:w-full md:max-w-none md:w-full lg:max-w-none lg:w-full rounded-full m-auto"
                     src={person.imageUrl}
                     alt=""
                     
