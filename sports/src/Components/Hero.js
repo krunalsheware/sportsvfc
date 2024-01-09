@@ -6,7 +6,7 @@ const HeroSection = () => {
     URL:"url(https://images.pexels.com/photos/6832204/pexels-photo-6832204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"
   }
   return (
-    <div className="relative mt-16 bg-cover bg-center h-screen" style={{ backgroundImage: `url(https://images.pexels.com/photos/6832204/pexels-photo-6832204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)` }}>
+    <div className="relative mx-3 my-3 bg-cover bg-center h-screen " style={{ backgroundImage: `url(https://images.pexels.com/photos/6832204/pexels-photo-6832204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)` }}>
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full">
         <h1 className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold text-white">Welcome <p>to</p></h1>

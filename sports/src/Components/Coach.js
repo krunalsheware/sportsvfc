@@ -3,6 +3,8 @@ import React from "react";
 const Coach = () => {
   const alpha = {
     marginTop: "90px",
+    // border: "1px solid red",
+
   };
 
   const coachdes = {
@@ -44,41 +46,24 @@ const Coach = () => {
     fontFamily: "Yanone Kaffeesatz sans-serif",
   };
   return (
-    <div className=" text-center  md-5" style={alpha}>
+    <div className="text-center mx-4 my-4" >
       <h1>
-        Our <span>Coach</span>
+        Our Coach
       </h1>
 
-      {/* <div  className="grid grid-cols-2"> */}
-      <div style={box1} className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-12 mx-auto w-95 md:w-90 lg:w-80 mt-10 md:mt-16 lg:mt-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-12 mx-auto lg:w-80 mt-10 md:mt-16 lg:mt-20">
 
-        <div style={img}
+        <div 
         >
-           <style>
-        {`
-          @media (max-width: 767px) {
-            div {
-              width: 90%;
-              margin-top: 30px;
-            }
-          }
-
-          @media (min-width: 768px) and (max-width: 1023px) {
-            div {
-              width: 80%;
-              margin-top: 40px;
-            }
-          }
-        `}
-      </style>
+          
           <img src="./coach.jpg" alt="coachimg" />
         </div>
-        <div className=" contaier2 text-base md:text-sm lg:text-md"
+        <div className=" text-base md:text-sm lg:text-md"
 >
           <h2>
-            About <span>Coach</span>
+            About Coach
           </h2>
-          <p style={coachdes} >
+          <p  >
             Ankit Gajbhiye, a former accomplished fencer, now leads our
             Victories Fencing Club as the head coach. With a fencing journey
             that commenced in 2006, he has participated in sevral national
@@ -93,14 +78,14 @@ const Coach = () => {
             for each fencer's success. Ankit Gajbhiye's journey from player to
             coach enriches our club's legacy of excellence.
           </p>
-          <p style={coachdes}>
+          <p>
             " While fencing demands participants to develop quick reaction,
             sharp focus, self-control and strategic thinking, it also stimulates
             creativity and teaches acts of good, professional sportsmanship."
           </p>
-          <div style={coachname}>
+          <div>
             <h3>Ankit Gajbhiye</h3>
-            <h5>-NIS Coach </h5>
+            <h5 className="">-NIS Coach </h5>
           </div>
         </div>
       </div>

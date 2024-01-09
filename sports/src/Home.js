@@ -4,24 +4,15 @@ import Hero, { HeroSection } from "./Components/Hero";
 import Nav from "./Nav";
 import { Carousel } from "./Components/Carousel";
 import { Coach } from "./Components/Coach";
-import { Awards } from "./Components/Awards";
 function Home() {
   return (
-    <div>
+    <div className=" m-auto">
       <Nav />
-      {/* <CardC/> */}
       <HeroSection />
       <hr />
-
       <Coach />
       <hr />
-
       <Carousel />
-      <hr />
-
-      {/* <Awards /> */}
-
-      <hr />
       <Footer />
     </div>
   );

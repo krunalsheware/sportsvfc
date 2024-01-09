@@ -20,21 +20,23 @@ const Carousel = () => {
     margin: "auto",
     marginTop: "40px",
     width: "95%", // Adjust this width as needed
+    // border: "1px solid red",
+
   };
 
   var settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     responsive: [
         {
           breakpoint: 768, // Medium screen
           settings: {
-            slidesToShow: 2, // Show 3 images for medium screens
+            slidesToShow: 1, // Show 3 images for medium screens
           },
         },
         {
@@ -47,9 +49,9 @@ const Carousel = () => {
   };
 
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} >
       <h2 style={{ textAlign: "center" }}> Our Fencers</h2>
-      <Slider {...settings}>
+      <Slider {...settings} className="mx-5 my-5">
         <div className="card">
           <img
             src="./fencerimg/Daminidi.jpeg"
