@@ -17,11 +17,7 @@ const Aboutus = () => {
     <div>
       <Nav />
       <Whatsapp />
-      <div>
-        <h1 className="text-3xl text-white bg-gray-500 border rounded font-bold mt-20 mb-8 py-8 text-center">
-          "AboutUs"
-        </h1>
-        </div>
+   
       <div className="mt-28 text-center container">
     
         {" "}

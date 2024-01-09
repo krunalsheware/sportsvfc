@@ -10,14 +10,14 @@ const Achivments = () => {
       <Nav />
 
       <div>
-        <h1 className="text-3xl text-white bg-gray-500 border rounded font-bold mt-20 mb-8 py-8 text-center">
-          "OUR ACHIVMENTS"
+        <h1 className="text-3xl font-bold mt-20 mb-8 py-8 text-center">
+          OUR ACHIVMENTS
         </h1>
       </div>
 
       <Example />
 
-      <Awards />
+      <Awards/>
       <Footer />
     </div>
   );
