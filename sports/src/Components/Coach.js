@@ -46,24 +46,20 @@ const Coach = () => {
     fontFamily: "Yanone Kaffeesatz sans-serif",
   };
   return (
-    <div className="text-center mx-4 my-4" >
-      <h1>
+    <div class="text-center mx-4 my-4">
+    <h1 class="text-xl md:text-2xl lg:text-3xl">
         Our Coach
-      </h1>
+    </h1>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-12 mx-auto lg:w-80 mt-10 md:mt-16 lg:mt-20">
-
-        <div 
-        >
-          
-          <img src="./coach.jpg" alt="coachimg" />
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-20 mx-auto lg:max-w-3xl mt-6 md:mt-10 lg:mt-12">
+    <div >
+            <img src="./coach.jpg" alt="coachimg" class="w-full md:max-w-sm lg:max-w-full mx-auto rounded-xl" />
         </div>
-        <div className=" text-base md:text-sm lg:text-md"
->
-          <h2>
-            About Coach
-          </h2>
-          <p  >
+        <div class="text-base md:text-sm lg:text-md">
+            <h2 class="text-lg md:text-xl lg:text-2xl mt-4 md:mt-0">
+                About Coach
+            </h2>
+            <p class="mt-2 md:mt-3 lg:mt-4">
             Ankit Gajbhiye, a former accomplished fencer, now leads our
             Victories Fencing Club as the head coach. With a fencing journey
             that commenced in 2006, he has participated in sevral national
